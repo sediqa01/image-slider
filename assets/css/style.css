@@ -20,7 +20,6 @@ li {
 }
 
 #slider-wrapper ul {
-	width: 5000px;
 	overflow: hidden;
 	position: absolute;
 	top: 0;
@@ -37,19 +36,19 @@ li {
 }
 
 #slider-wrapper ul li:nth-child(1) {
-	background-image: url(images/leaves01.jpg);
+	background-image: url(/media/leaves01.jpg);
 }
 #slider-wrapper ul li:nth-child(2) {
-	background-image: url(images/leaves02.jpg);
+	background-image: url(/media/leaves02.jpg);
 }
 #slider-wrapper ul li:nth-child(3) {
-	background-image: url(images/leaves03.jpg);
+	background-image: url(/media/leaves03.jpg);
 }
 #slider-wrapper ul li:nth-child(4) {
-	background-image: url(images/leaves04.jpg);
+	background-image: url(/media/leaves04.jpg);
 }
 #slider-wrapper ul li:nth-child(5) {
-	background-image: url(images/leaves05.jpg);
+	background-image: url(/media/leaves05.jpg);
 }
 
 .content {
