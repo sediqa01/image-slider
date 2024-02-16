@@ -23,6 +23,16 @@ window.addEventListener('load', function(){
         slider.style.left = leftPosition;
     });
 
+    prev.addEventListener('click', function(event){
+        event.preventDefault();
+        counter--;
+        if (counter < 0) {
+            counter = slideCount - 1;
+        }
+        leftPosition = `-${counter * slideWidth}px`;
+        slider.style.left = leftPosition;
+    });
+
 
 
 
